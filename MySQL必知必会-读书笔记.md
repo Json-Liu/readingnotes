@@ -27,14 +27,17 @@
 	max() 求某列的最大值 
 	main() 求某列的最小值 
 	sum() 求某列的和
-	</pre>
+</pre>
+
 ###3、MYSQL不同引擎的区别
+
 <pre>
 	InnoDB 一个可靠的事务处理引擎，但不支持全文本搜索
 	MEMORY 功能等同于 MyISAM 但由于数据存储在内存中，速度很快，适合于临时表
 	MyISAM 一个性能极高的引擎，支持全文本搜索，但不支持事务处理。
 	引擎类型可以混用
-	</pre>
+</pre>
+
 ###4、MYSQL 的三种插入方法
 <pre>
 	insert into table 主键冲突时会抛出 DuplicatedKeyException 异常
